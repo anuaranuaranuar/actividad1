@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JavaS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form>
+       
+        <p class="p">
+            <label>Nombres: </label> <input  class="form-control"   type="text" id="nombre"     placeholder="Ingrese nombre">
+        </p>
+        <p class="p">
+            <label>Apellidos: </label> <input  class="form-control" type="text" id="apellidos"    placeholder="Ingrese apellidos">
+        </p>
+        <p class="p">
+            <label>Género: </label> <select     id="sexos">
+                <option value="" disable selected>--Selecciona--</option>
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </p>
+        <p class="p">
+            <label>Estado civil:</label> 
+            <input type="radio" id="casado" name="casado">
+            <label for="casado" id="casado">Casado</label> 
+            <input type="radio" id="soltero"    name="soltero">
+            <label for="soltero" id="soltero">Soltero</label>
+        </p>
+    </form>
+    <div class="button">
+        <button id="boton" type="submit" class="btn btn-dark">Agregar</button>
+    </div>
+
+    <table id="tabla"  class="table table-striped table-dark">
+        <tr class="exp">
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Género</th>
+            <th scope="col">Estado Civil</th>
+        </tr>
+    </table>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

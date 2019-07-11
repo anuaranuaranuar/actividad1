@@ -1,0 +1,26 @@
+body{
+    width: 50%;
+    margin: auto;
+}
+
+#tabla {
+    width: 100%;
+    text-align: center;
+}
+.exp>th, td{
+    border: 1px solid rgb(0, 0, 0);
+}
+.button{
+    border-top: 1px solid hsl(0, 4%, 80%);
+    margin-bottom: 1em;
+    padding-top: 1em;
+     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 1em;
+}
+.p{
+    width: 20em;
+    margin: 2em auto;
+}
